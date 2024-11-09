@@ -1,0 +1,189 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fdfdfd;
+    color: #4f4d4d;
+    padding: 2%;
+}
+.navbar section{
+    position: sticky;
+    top: 0;
+   
+    
+}
+
+
+a:hover{
+    color: rgb(1, 252, 18);
+    text-decoration: underline;
+    -webkit-transition-duration: 0.5s; /* Safari */
+}
+
+.container-name{
+    margin-top:40px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: white;
+    
+}
+/* Left section (Photo & Details) */
+#gradient-text-name{
+    color: rgb(80, 101, 121);
+}
+
+/* Gradient background - https://htmlcheatsheet.com/css/ */
+.gradient-text1 {
+background: #1C6EA4;
+background: -moz-linear-gradient(left, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
+background: -webkit-linear-gradient(left, #8fa6b6 0%, #2388CB 50%, #144E75 100%);
+background: linear-gradient(to right, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
+ 
+
+    /* Clip the background to text */
+    background-clip: text;
+   -webkit-background-clip: text; /* Required for Safari */
+    
+    /*Make text color transparent to show the gradient */
+    color: transparent;
+}
+.gradient-text2 {
+    /* Gradient background */
+    background: #1C6EA4;
+    background: -moz-linear-gradient(left, #1C6EA4 0%, #237fbc 50%, #144E75 100%);
+    background: -webkit-linear-gradient(left, #87bfe4 0%, #2388CB 50%, #144E75 100%);
+    background: linear-gradient(to right, #47a3e0 0%, #2388CB 50%, #144E75 100%);
+    
+    /* Clip the background to text */
+    background-clip: text;
+    -webkit-background-clip: text; /* Required for Safari */
+    
+    /*Make text color transparent to show the gradient */
+    color: transparent;
+}
+
+    .about-me{
+    margin-top:40px;
+    background: #1C6EA4;
+    background: -moz-linear-gradient(left, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
+    background: -webkit-linear-gradient(left, #8fa6b6 0%, #2388CB 50%, #144E75 100%);
+    background: linear-gradient(to right, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
+    color:white;
+    padding: 3%;
+    margin-top: 80px;
+    
+}
+
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    float: left;
+    position: relative;
+    border-radius: 50%;
+    padding: 20px;
+    margin-bottom: 10px;
+    object-fit: contain;
+    
+}
+
+.pic{
+    padding:20px;
+    position: absolute;
+    right: 0;
+    top: 25px;
+}
+
+.abbott {
+    position: relative;
+    left: 50%; /* Center horizontally */
+    width: 100px; /* Adjust width to fit */
+    height: auto; /* Keeps image proportionate */
+    object-fit: contain;
+    
+}
+
+/* Change the color of links on hover */
+.abbott:hover {
+    background-color: #fcfcfc;
+    border-radius: 50%;
+    -webkit-transition-duration: 0.5s; /* Safari */
+  }
+
+.experience{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    
+}
+ #experience{
+    padding-top: 80px;
+ }
+
+.row{
+      
+    background: #1C6EA4;
+    background: -moz-linear-gradient(left, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
+    background: -webkit-linear-gradient(left, #8fa6b6 0%, #2388CB 50%, #144E75 100%);
+    background: linear-gradient(to right, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
+    color: white;
+}
+
+#education{
+    padding-top: 80px;
+ }
+
+ #skillz{
+    
+    padding-top: 80px;
+    padding-bottom: 40px;
+   
+    
+ }
+
+ .skillz{
+    display:flex ;
+    justify-content: center;
+    background-color: rgb(253, 3, 203);
+    color: whitesmoke;
+ }
+
+
+
+#hobbies{
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    
+}
+
+#contact{
+    position: relative;  
+}
+
+.footer{
+  padding-top: 40px;
+}
+
+footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: px;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+
+}
+#contact{
+    color:whitesmoke
+}
+
+#copy{
+    padding-top: 2%;
+    
+}
+
+
+
